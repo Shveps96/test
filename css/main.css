@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 540px;
+    background-image: url(../img/Mobile/bg_m.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+    /* HEADER */
+    
+.header {
+    font-family: 'Montserrat', sans-serif;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu_item {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.menu_item a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    padding: 5px 13px 5px 13px;
+}
+
+.menu_item a:hover {
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 5px 13px 5px 13px;
+}
+
+.text_logo {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    top: 176px;
+    text-align: center;
+    margin-top: 133px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    top: 230px;
+    text-align: center;
+    margin-top: 40px;
+    width: 291px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sub_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    top: 310px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 37px;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 287px;
+}
+
+.button a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 11px 50px 11px 50px;
+    background-color:#f23535;
+    border-radius: 20px;
+}
+
+.button a:hover {
+    cursor: pointer;
+}
+
+    /* PARTNERS */
+
+.partners {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_partners {
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #333333;
+    text-align: center;
+    margin-top: 220px;
+    width: 265px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.partner_box {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partner_img {
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.logo_tv {
+    background-color: #f23535;
+    padding: 10px 10px 10px 10px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 103px;
+    left: 165px;
+}
+
+.partner_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.partner_bio {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #7a7a7a;
+    text-align: center;
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+.logo_glass {
+    background-color: #e68735;
+    padding: 10px 10px 10px 10px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 103px;
+    left: 165px;
+}
+
+.logo_tea {
+    background-color: #2ccea8;
+    padding: 10px 10px 10px 10px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 103px;
+    left: 165px;
+}
+
+.logo_te {
+    background-color: #3a61bb;
+    padding: 10px 10px 10px 10px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 103px;
+    left: 165px;
+}
+
+.button_last {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.button_last a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #f23535;
+    margin-left: 16px;
+    padding: 11px 65px 11px 65px;
+    border: 2px solid #f23535;
+    border-radius: 20px;
+}
+
+.button_last a:hover {
+    cursor: pointer;
+    background-color: #f23535;
+    color: #ffffff;
+}
